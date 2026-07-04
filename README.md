@@ -1,4 +1,4 @@
-# AI PoC: Amazon Bedrock Managed Knowledge Base + AgentCore Runtime 研修
+# Amazon Bedrock Managed Knowledge Base + AgentCore Runtime 研修
 
 Amazon Bedrock **Managed Knowledge Base**(2026年6月GAの新サービス)を使ったRAGの構築と、Amazon Bedrock **AgentCore Runtime**(+ Code Interpreter)を使ったエージェント開発を、TypeScript(`tsx`実行)のハンズオンで学べる社内研修教材。
 
