@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# モジュール間で状態を受け渡すために実行時に生成される設定ファイル
+01_knowledge_base/.kb-config.json
+01_knowledge_base_v2/.kb-config.json
+
+# 社内向けREADME(クロール対象サイトのURL・検索クエリ・実行ログ等の実データ入り。
+# 公開用READMEには汎用化した例のみ載せる)
+README_INTERNAL.md
+
+# ローカル実行で生成されるグラフ画像
+02_chart_agent/output/
+02_chart_agent_v2/output/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+html/

@@ -1,0 +1,35 @@
+{
+  "name": "ai-poc-knowledge-bases",
+  "version": "0.1.0",
+  "description": "Amazon Bedrock Managed Knowledge Base + AgentCore Runtime 研修サンプル (TypeScript / tsx)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agent": "latest",
+    "@aws-sdk/client-bedrock-agent-runtime": "latest",
+    "@aws-sdk/client-bedrock-agentcore": "latest",
+    "@aws-sdk/client-bedrock-agentcore-control": "latest",
+    "@aws-sdk/client-cloudwatch-logs": "^3.1077.0",
+    "@aws-sdk/client-ecr": "latest",
+    "@aws-sdk/client-iam": "latest",
+    "@aws-sdk/client-sts": "latest",
+    "@aws-sdk/credential-providers": "latest",
+    "@strands-agents/sdk": "latest",
+    "bedrock-agentcore": "latest",
+    "commander": "^13.1.0",
+    "yaml": "^2.8.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.17",
+    "tsx": "^4.22.4",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

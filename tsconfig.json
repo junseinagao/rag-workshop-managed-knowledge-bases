@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "shared/**/*.ts",
+    "01_knowledge_base/**/*.ts",
+    "02_chart_agent/**/*.ts",
+    "03_runtime/*.ts"
+  ],
+  "exclude": ["node_modules", "dist", "03_runtime/deployment"]
+}
